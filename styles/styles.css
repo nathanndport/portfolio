@@ -2,14 +2,15 @@
 
 .logoimage{
     width: 80px;
-} 
-nav{
-    display: flex;
-    justify-content: space-around;
 }
 header{
     display: grid;
     grid-template-columns: 150px auto;
+    padding: 25px 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 #content{
     display: grid;
