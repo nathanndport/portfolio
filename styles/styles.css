@@ -3,14 +3,30 @@
 .logoimage{
     width: 80px;
 }
+body{
+    background-color: #eff1ed;
+}
 header{
     display: grid;
     grid-template-columns: 150px auto;
     padding: 25px 50px;
+    background-color:#766153;
 }
 nav{
     display: flex;
     justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    padding: 35px;
+    font-family: 'cabin';
+    font-size: 20px;
+    font-style: bold;
+    color: #BCBD8B;
+}
+nav a:hover{
+    background-color:black ;
+    color: #D8D0C1;
 }
 #content{
     display: grid;
@@ -33,16 +49,19 @@ nav{
     font-family: 'dynalight';
     justify-content: space-around;
     display: flex;
+    font-size: 60px;
 }
 .homep{
     font-family: 'cabin';
     justify-content: space-around;
     display: flex;
+    font-size: 18px;
 }
 .homef{
     justify-content: space-around;
     display: flex;
     font-family: 'cabin';
+    font-size: 18px;
 }
 footer{
     padding: 25px 50px;
@@ -50,4 +69,16 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #766153;
+}
+footer a{
+    font-family: 'cabin';
+    font-size: 20px;
+    font-style: bold;
+    color: #BCBD8B;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color:black ;
+    color: #D8D0C1;
 }
