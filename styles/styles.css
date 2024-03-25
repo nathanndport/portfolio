@@ -3,3 +3,50 @@
 .logoimage{
     width: 80px;
 } 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#homeheader{
+    grid-column: 2/3;
+}
+#home-img-one{
+    grid-column: 2/3;
+}
+#home-img-two{
+    grid-column: 2/3;
+}
+#homefooter{
+    grid-column: 2/3;
+}
+.hometitle{
+    margin: auto 0;
+    font-family: 'dynalight';
+    justify-content: space-around;
+    display: flex;
+}
+.homep{
+    font-family: 'cabin';
+    justify-content: space-around;
+    display: flex;
+}
+.homef{
+    justify-content: space-around;
+    display: flex;
+    font-family: 'cabin';
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
