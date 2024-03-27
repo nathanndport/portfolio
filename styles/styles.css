@@ -21,7 +21,6 @@ nav a{
     padding: 35px;
     font-family: 'cabin';
     font-size: 20px;
-    font-style: bold;
     color: #BCBD8B;
 }
 nav a:hover{
@@ -81,7 +80,6 @@ footer{
 footer a{
     font-family: 'cabin';
     font-size: 20px;
-    font-style: bold;
     color: #BCBD8B;
     text-decoration: none;
 }
