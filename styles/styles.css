@@ -96,23 +96,39 @@ footer a:hover{
 
 
 
-
+#contentgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 #content1{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 1/2;
 }
 #highschool{
     grid-column: 2/3;
+    grid-row: 1/2;
 }
 #tradeschool{
     grid-column: 2/3;
+    grid-row: 3/4;
 }
 #college{
     grid-column: 2/3;
+    grid-row: 5/6;
+}
+#content11{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 3fr 1fr;
+    grid-column: 2/3;
 }
 #education-image-one{
-    grid-column: 4/5;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 #education-image-two{
-    grid-column: 4/5;
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
