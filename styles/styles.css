@@ -93,3 +93,26 @@ footer a:hover{
 .home-page-pic-two{
     border: 10px solid #766153;
 }
+
+
+
+
+#content1{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+}
+#highschool{
+    grid-column: 2/3;
+}
+#tradeschool{
+    grid-column: 2/3;
+}
+#college{
+    grid-column: 2/3;
+}
+#education-image-one{
+    grid-column: 4/5;
+}
+#education-image-two{
+    grid-column: 4/5;
+}
