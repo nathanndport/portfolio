@@ -109,6 +109,7 @@ footer a:hover{
 #highschool{
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-top: 50px;
 }
 #tradeschool{
     grid-column: 2/3;
@@ -117,6 +118,7 @@ footer a:hover{
 #college{
     grid-column: 2/3;
     grid-row: 5/6;
+    margin-bottom: 50px;
 }
 #content11{
     display: grid;
@@ -127,8 +129,10 @@ footer a:hover{
 #education-image-one{
     grid-column: 2/3;
     grid-row: 2/3;
+    border: 10px solid #766153;
 }
 #education-image-two{
     grid-column: 2/3;
     grid-row: 4/5;
+    border: 10px solid #766153;
 }
