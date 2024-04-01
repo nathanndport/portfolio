@@ -136,3 +136,39 @@ footer a:hover{
     grid-row: 4/5;
     border: 10px solid #766153;
 }
+.ala{
+    font-family: 'dynalight';
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.alap{
+    font-family: 'cabin';
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.evit{
+    font-family: 'dynalight';
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.evitp{
+    font-family: 'cabin';
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.byui{
+    font-family: 'dynalight';
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.byuip{
+    font-family: 'cabin';
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
