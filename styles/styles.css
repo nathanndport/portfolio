@@ -64,10 +64,8 @@ figcaption{
     display: flex;
     font-family: 'cabin';
     font-size: 10px;
-    background-color: #766153;
-    color:white;
-    margin-top: -10px;
-    margin-bottom: 20px;
+    color:black;
+    margin-top: -5px;
 }
 footer{
     padding: 25px 50px;
@@ -89,9 +87,11 @@ footer a:hover{
 }
 .home-page-pic-one{
     border: 10px solid #766153;
+    box-shadow: 5px 5px 5px  #BCBD8B;
 }
 .home-page-pic-two{
     border: 10px solid #766153;
+    box-shadow: 5px 5px 5px  #BCBD8B;
 }
 
 
@@ -130,11 +130,13 @@ footer a:hover{
     grid-column: 2/3;
     grid-row: 2/3;
     border: 10px solid #766153;
+    box-shadow: 5px 5px 5px  #BCBD8B;
 }
 #education-image-two{
     grid-column: 2/3;
     grid-row: 4/5;
     border: 10px solid #766153;
+    box-shadow: 5px 5px 5px  #BCBD8B;
 }
 .ala{
     font-family: 'dynalight';
