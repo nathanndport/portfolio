@@ -59,14 +59,6 @@ nav a:hover{
     margin-left: 100px;
     margin-right: 100px;
 }
-figcaption{
-    justify-content: space-around;
-    display: flex;
-    font-family: 'cabin';
-    font-size: 10px;
-    color:black;
-    margin-top: -5px;
-}
 footer{
     padding: 25px 50px;
     margin-top: 200px;
