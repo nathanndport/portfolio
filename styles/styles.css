@@ -96,6 +96,7 @@ footer a:hover{
 
 
 
+
 #contentgrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -171,4 +172,82 @@ footer a:hover{
     font-family: 'cabin';
     font-size: 18px;
     margin-right: -100px;
+}
+
+
+
+#jobsgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0;
+}
+#leftgrid{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+}
+#rumco{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#caa{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.rummel{
+    font-family: 'dynalight';
+    font-size: 60px;
+}
+.rummelp{
+    font-family: 'cabin';
+    font-size: 18px;
+}
+.canyonaa{
+    font-family: 'dynalight';
+    font-size: 60px;
+}
+.canyonaap{
+    font-family: 'cabin';
+    font-size: 18px;
+}
+#trans{
+    border: 10px solid #766153;
+    box-shadow: 5px 5px 5px  #BCBD8B;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#rightgrid{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+}
+#qt{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#schnepffarms{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.quiktrip{
+    font-family: 'dynalight';
+    font-size: 60px;
+}
+.quiktripp{
+    font-family: 'cabin';
+    font-size: 18px;
+}
+.schnepf{
+    font-family: 'dynalight';
+    font-size: 60px;
+}
+.schnepfp{
+    font-family: 'cabin';
+    font-size: 18px;
+}
+#weldimage{
+    border: 10px solid #766153;
+    box-shadow: 5px 5px 5px  #BCBD8B;
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
